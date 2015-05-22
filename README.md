@@ -84,7 +84,7 @@ Use Ruby 1.9.3 to cross-compile a fat binary that includes 1.9 and 2.0 binaries:
 
 Use Ruby 2.0.0 to cross-compile a fat binary that includes 2.0 and 2.1 binaries:
 
-    vagrant@precise64:/vagrant$ BASE_VERSION=2.0.0 RUBY_CC_VERSION=2.0.0:2.1.3 package_all nokogiri
+    vagrant@precise64:/vagrant$ BASE_VERSION=2.0.0 RUBY_CC_VERSION=2.0.0:2.1.6 package_all nokogiri
 
 By default, with no environment variables, rake-compiler-dev-box will try to cross-compile for all available versions, using 1.8 as a base.
 
